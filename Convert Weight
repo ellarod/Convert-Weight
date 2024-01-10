@@ -1,0 +1,22 @@
+8/31/2023
+CSE 7 Fall 23: Lab 1
+Convert weight in pounds to kilograms
+VSCode / JDK 11
+*/
+
+public class ConvertWeight{
+    public static void main(String[] args){
+
+        //Variables
+        final double kgPerPound = 0.45359237;
+        double weightInPounds = 150.32;
+        double weightInKilograms;
+
+        //Calculation 
+        weightInKilograms=kgPerPound*weightInPounds;
+        
+        //Print Statement
+        System.out.println(weightInPounds + " is equivalent to " + weightInKilograms + " kg");
+
+    }
+}
